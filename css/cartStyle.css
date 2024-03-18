@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+
+}
+
+header{
+    width: 90%;
+    height: 85px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .logo{
+    font-size: 30px;
+  }
+
+  header a :hover{
+    color: black;
+  }
+  
+  ul{
+    float: right;
+    width: 60%;
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  ul a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+  
+  }
+  .nav-link, .logo{
+    color: black;
+    font-size: 32px;
+  }
+.cart {
+    background-color: #e1dede;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.container {
+    padding-top: 15px;
+}
+
+
+.product-row {
+    font-family: Delius;
+    padding-top: 35px;
+    align-items: center;
+}
+
+.product-row .product-name{
+    font-family: Delius;
+    font-size: 28px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+button{
+    width: 149px;
+    height: 39px;
+}
+
+.amount button{
+    width: 37px;
+    height: 39px;
+}
+.product-image {
+    margin-bottom: 10px;
+    padding-right: 20px;
+    width: 181px;
+    height: 139px;
+}
+
+.footer .row {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding-left: 98px;
+    padding-top: 20px;
+}
+
+.footer-col {
+    padding-left: 116px;
+}
+
+.footer-col i {
+    color: #3C7D5A;
+}
+
+.footer-col a {
+    padding-left: 58px;
+}
+
+.footer-container .footer {
+    display: inline;
+    margin-top: 50px;
+    padding-left: 58px;
+}
+
+.footer-container .footer i {
+    color: #3C7D5A;
+}
+
+.footer p {
+    font-size: 34px;
+    font-family: Inter;
+}
+
+.footer-col {
+    display: inline;
+    font-family: Inter;
+    size: 28px;
+}

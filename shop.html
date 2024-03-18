@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/shopStyle.css">
+  <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <title>Organix</title>
+</head>
+
+<body>
+    
+  <div class="container-fluid">
+        <header>
+          <a href="home.html" class="logo"><img src="imgs/logo.png" alt="Logo">Organix</a>
+        <ul class="navbar">
+          <li>
+            <form class="form-inline my-2 my-lg-0">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text search-icon"><i class="fas fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control search-input" name="q" placeholder="Search" aria-label="Search">
+              </div>
+            </form>
+          </li>
+          <li>
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li>
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">
+              <i class="fas fa-globe"></i>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+
+        </ul>
+      </header>
+    </div>
+
+  <div class="main">
+    <div>
+      <img src="imgs/Rectangle 6.png" alt="main-img" class="main-img">
+    </div>
+
+    <div class="row">
+      <div class="col-2 mb-2" onclick="showProductDetail('Tomato', 'imgs/tomato.png',3500, 120)">
+        <div class="card product-card">
+          <img src="imgs/tomato.png" class="card-img-top" alt="Tomato">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Tomato</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:3500 <br> Price:120</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Potato', 'imgs/potato.png',7500, 80)">
+          <img src="imgs/potato.png" class="card-img-top" alt="Potato">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Potato</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:7500 <br> Price:80</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Cucumber', 'imgs/cucumber1.png',9800, 75)">
+          <img src="imgs/cucumber1.png" class="card-img-top" alt="cucumber">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Cucumber</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:9800 <br> Price:75 EGP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Onion', 'imgs/onion.jpeg',1000, 50)">
+          <img src="imgs/onion.jpeg" class="card-img-top" alt="onion">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Onion</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:1000 <br> Price:50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Carrot', 'imgs/carrot.png',7100, 40)">
+          <img src="imgs/carrot.png" class="card-img-top" alt="carrot">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Carrot</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:7100 <br> Price:40</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Greenpeas', 'imgs/Greenpeas.png',5400 ,80)">
+          <img src="imgs/Greenpeas.png" class="card-img-top" alt="Greenpeas">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Greenpeas</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:540 <br> Price:80</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Peach', 'imgs/peach.png', 8000,60)">
+          <img src="imgs/peach.png" class="card-img-top" alt="Peach">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Peach</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:8000 <br> Price:60</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Banana', 'imgs/banana.jpg',3600, 45)">
+          <img src="imgs/banana.jpg" class="card-img-top" alt="banana">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Banana</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:3600 <br> Price:45</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Orange', 'imgs/orange.jpeg', 1500,30)">
+          <img src="imgs/orange.jpeg" class="card-img-top" alt="orange">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Orange</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:1500 <br> Price:30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Strawberry', 'imgs/strawberry.png',4600 ,45)">
+          <img src="imgs/strawberry.png" class="card-img-top" alt="strawberry">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Strawberry</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:460 <br> Price:45</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Grapes', 'imgs/grapes.jpeg',9500, 175)">
+          <img src="imgs/grapes.jpeg" class="card-img-top" alt="grapes">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Grapes</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:9500 <br> Price:175</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 mb-2">
+        <div class="card product-card" onclick="showProductDetail('Mango', 'imgs/mango.jpeg',1400, 80)">
+          <img src="imgs/mango.jpeg" class="card-img-top" alt="mango">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="card-title">Mango</h5>
+              </div>
+              <div class="col">
+                <p class="card-text">Quantity:14000 <br> Price:80</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-detail" id="productDetail">
+      <div class="detail-content">
+        <div class="row">
+          <div class="col">
+            <img src="" alt="Product Image" id="productImage" style="width: 549px; height: 481px">
+          </div>
+          <div class="col">
+            <h2 id="productName"></h2>
+            <p id="productQuantity"></p>
+            <p id="productPrice"></p>
+            <button class="add-to-cart-btn" id="addToCartButton" onclick="addToCart('','',)">Add to Cart</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="row">
+      <p>Connect With Us</p>
+      <div class="footer-col">
+        <i class="fas fa-envelope"></i> EMAIL SUPPORT <br>
+        youma9104@gmail.com
+      </div>
+      <div class="footer-col">
+        <i class="fas fa-phone"></i> PHONE SUPPORT <br>
+        16258
+      </div>
+      <div class="footer-col">
+        <div class="icons">
+          <a href="#"><img src="imgs/google.png" alt="google-icon"></a>
+          <a href="#"><img src="imgs/facebook.png" alt="facebook-icon"></a>
+          <a href="#"><img src="imgs/twitter (1).png" alt="twitter-icon"></a>
+          <a href="#"><img src="imgs/instagram.png" alt="instagram-icon"></a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/shop.js"></script>
+
+
+</body>
+
+</html>

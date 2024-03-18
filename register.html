@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/registerStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Organix</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Image Section -->
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="imgs/login.png" alt="Sign up Image" class="img-fluid" style="height: 870px;">
+            </div>
+
+            <!-- Form Section -->
+            <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                <div class="form-container">
+                    <form id="Sign up-form">
+                        <h1 class="font-weight-bold">Sign up</h1>
+                        <div class="inputField">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text input-group-addon"><i class="fas fa-user"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" id="username" placeholder="User name"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text input-group-addon"><i
+                                                    class="fas fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                        <input type="email" class="form-control" id="email" placeholder="Email address"
+                                            required>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text input-group-addon"><i
+                                                    class="fas fa-lock"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" id="password" name="password"
+                                            placeholder="Password" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text input-group-addon"><i
+                                                    class="fas fa-lock"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" id="confirmpassword"
+                                            name="confirmpassword" placeholder="Confirm password" required>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <button type="submit" class="btn-signup">Sign up</button>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="agreeTerms">
+                                <label class="form-check-label" for="agreeTerms">I agree to the terms of services and
+                                    privacy policy </label>
+                            </div>
+                            <p class="switch-form">Already have an account!<a href="login.html"
+                                    id="switch-to-login">Login</a></p>
+                            <div class="footer">
+                                <a href="#"> <img src="imgs/google.png" alt="google-icon" class="fa-google"></a>
+                                <a href="#"><img src="imgs/twitter (1).png" alt="twitter-icon"></a>
+                                <a href="#"><img src="imgs/facebook.png" alt="facebook-icon"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
